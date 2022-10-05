@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>React App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div id="app"></div>
+    <script src="three.r134.min.js"></script>
+<script src="vanta.halo.min.js"></script>
+<script>
+    VANTA.HALO({
+      el: "#app",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: document.documentElement.clientHeight,
+      minWidth: document.documentElement.clientWidth,
+      backgroundColor: 0x7080f,
+      amplitudeFactor: 0.30,
+      xOffset: -0.01,
+      size: 3.00
+    })
+    </script>
+  </body>
+</html>
