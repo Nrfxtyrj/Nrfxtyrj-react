@@ -3,7 +3,6 @@
   position: absolute;
   top: 40%;
   left: 40%;
-  text-align: center;
 }
 
 .App-logo {
@@ -46,8 +45,9 @@ ul {
     margin-bottom: 1em;
     list-style-type: none;
     position: absolute;
+    display: inline-block;
 }
- li {
+.link  {
     margin-right: 20px;
     display: inline-block; 
     color: rgb(255, 255, 255);
@@ -64,22 +64,7 @@ a {
     text-decoration: none;
     width: 100px;
 }
-.line {
-  display: none;
-  position: absolute;
-    top: 50px;
-    left: 580px;
-  color: rgb(255, 0, 0);
-  animation: cloudMov 5s infinite linear;
-}
-@keyframes cloudMov {
-  0% {
-      left: 925px;
-  }
-  100% {
-      left: -1508px;
-  }
-}
+
 
 
 
